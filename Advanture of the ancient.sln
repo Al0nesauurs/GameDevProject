@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{ADA334D7-8188-E973-5606-D829C0D56164}") = "Advanture of the ancient", "Assembly-CSharp-firstpass.csproj", "{7857BE63-BCCE-442B-A21B-9FA75A00A43D}"
+EndProject
+Project("{ADA334D7-8188-E973-5606-D829C0D56164}") = "Advanture of the ancient", "Assembly-CSharp.csproj", "{68DFCCCA-217B-10DE-EFA9-9B99F37E6A21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7857BE63-BCCE-442B-A21B-9FA75A00A43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7857BE63-BCCE-442B-A21B-9FA75A00A43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7857BE63-BCCE-442B-A21B-9FA75A00A43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7857BE63-BCCE-442B-A21B-9FA75A00A43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DFCCCA-217B-10DE-EFA9-9B99F37E6A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DFCCCA-217B-10DE-EFA9-9B99F37E6A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DFCCCA-217B-10DE-EFA9-9B99F37E6A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DFCCCA-217B-10DE-EFA9-9B99F37E6A21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

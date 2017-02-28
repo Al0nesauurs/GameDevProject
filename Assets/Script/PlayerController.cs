@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour {
     public float force = 5;
     public float MouseSpeed = 3;
     private float distToGround;
+    public GameObject Bullet;
+    public Transform BulletSpawn;
+
 	// Use this for initialization
 	void Start () {
         distToGround = gameObject.GetComponent<Collider>().bounds.extents.y;
@@ -51,6 +54,10 @@ public class PlayerController : MonoBehaviour {
                 CanJump = true;
                 usingitem = false;
             }
+        }
+        if(Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
         }
         
         if(Input.GetKeyDown(KeyCode.Escape))

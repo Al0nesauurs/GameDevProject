@@ -2,39 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeleeSystem : MonoBehaviour {
-    public static bool clicked = false;
-    private PigController  Pigscript;
+public class Bulletmove : MonoBehaviour {
+    private float t;
+    private PigController Pigscript;
     private TreeController Treescript;
     private ItemController Itemscript;
     private StoneController Stonescript;
-    public static int power = 5;
+    private int power = 10;
     // Use this for initialization
-    private GameObject target;
-	void Start () {
+    void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        t += Time.deltaTime;
+        if (t > 5)
+            Destroy(gameObject);
+//        Debug.Log(Input.mousePosition);
+        gameObject.transform.Translate(Vector3.forward * Time.deltaTime * 10f);
+        
 	}
-    void OnTriggerEnter (Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (clicked)
-        {
-            Debug.Log("Clicked");
-            target = other.gameObject;
-            ApplyDamage(target);
-            Debug.Log(target);
-        }
+        ApplyDamage(other.gameObject);
     }
 
     public void ApplyDamage(GameObject other)
     {
         if (other.tag == "PigTag")
         {
-            
+
             Pigscript = (PigController)other.GetComponent(typeof(PigController));
             Pigscript.HpController(power);
 
@@ -42,7 +40,7 @@ public class MeleeSystem : MonoBehaviour {
 
         if (other.tag == "TreeTag")
         {
-            
+
             Treescript = (TreeController)other.GetComponent(typeof(TreeController));
             Treescript.HpController(power);
         }

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7073D017-BAD0-DA84-9946-EB1F2BF63BC7}</ProjectGuid>
+    <ProjectGuid>{51CBAA5B-8961-2650-7189-1AC8F761431E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bulletmove.cs" />
      <Compile Include="Assets\GroundScript.cs" />
      <Compile Include="Assets\Scene\Menu_Button.cs" />
      <Compile Include="Assets\Script\GameTime.cs" />
@@ -85,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{06B7ED31-91D3-6A4A-7F8D-CE464FD312C1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{37680953-DAD6-FE12-0036-631B97793698}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

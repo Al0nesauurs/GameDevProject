@@ -20,7 +20,7 @@ public class Bulletmove : MonoBehaviour {
         if (t > 5)
             Destroy(gameObject);
 //        Debug.Log(Input.mousePosition);
-        gameObject.transform.Translate(Vector3.forward * Time.deltaTime * 10f);
+        gameObject.transform.Translate(Vector3.down * Time.deltaTime * 10f);
         
 	}
     void OnTriggerEnter(Collider other)
@@ -32,7 +32,7 @@ public class Bulletmove : MonoBehaviour {
     {
         if (other.tag == "PigTag")
         {
-
+            Destroy(gameObject);
             Pigscript = (PigController)other.GetComponent(typeof(PigController));
             Pigscript.HpController(power);
 
@@ -55,5 +55,6 @@ public class Bulletmove : MonoBehaviour {
             Itemscript = (ItemController)other.GetComponent(typeof(ItemController));
             Itemscript.HpController(power);
         }
+        
     }
 }

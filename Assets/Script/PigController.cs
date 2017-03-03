@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PigController : MonoBehaviour {
+public class PigController : MonoBehaviour
+{
     Transform playerarm;
     float trun = 0;
     private float hp = 12;
@@ -10,28 +11,30 @@ public class PigController : MonoBehaviour {
     bool running = false;
     bool fliping = false;
     float TimetoWalk = -10;
+    public float speedup = 0;
     public GameObject meat;
     public float pigspeed = 0.01f;
-   
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start()
+    {
         playerarm = GameObject.Find("PlayerArm").GetComponent<Transform>();
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         if (running)
         {
             run(trun += Time.deltaTime);
         }
         else
         {
-            if (TimetoWalk<=0)
+            if (TimetoWalk <= 0)
             {
                 if (!fliping)
                 {
-                    Vector3 wayPoint = Random.insideUnitCircle * 100;
-                    wayPoint.y = gameObject.transform.position.y;
+                    Vector3 wayPoint = new Vector3(Random.Range(-100, 100), gameObject.transform.position.y, Random.Range(-100, 100));
                     gameObject.transform.LookAt(wayPoint);
                     fliping = true;
                 }
@@ -47,11 +50,11 @@ public class PigController : MonoBehaviour {
             }
             else
             {
-               TimetoWalk -= Time.deltaTime;
+                TimetoWalk -= Time.deltaTime + speedup;
             }
         }
 
-	}
+    }
 
     public void HpController(int damage)
     {
@@ -81,13 +84,13 @@ public class PigController : MonoBehaviour {
         targetPosition.y = transform.position.y;
         gameObject.transform.LookAt(targetPosition);
         gameObject.transform.Rotate(0, 180, 0);
-        gameObject.transform.Translate(Vector3.forward  * pigspeed*2);
+        gameObject.transform.Translate(Vector3.forward * pigspeed * 2);
 
     }
-    void DropItem ()
+    void DropItem()
     {
-        Vector3 meatposition = new Vector3(Random.Range(gameObject.transform.position.x+0.3f, gameObject.transform.position.x -0.3f), gameObject.transform.position.y, gameObject.transform.position.z);
+        Vector3 meatposition = new Vector3(Random.Range(gameObject.transform.position.x + 0.3f, gameObject.transform.position.x - 0.3f), gameObject.transform.position.y, gameObject.transform.position.z);
         Instantiate(meat, meatposition, Quaternion.identity);
     }
-        
+
 }

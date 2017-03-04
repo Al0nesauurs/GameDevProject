@@ -17,7 +17,7 @@ public class PigSpawn : MonoBehaviour {
         if(GameObject.FindGameObjectsWithTag("PigTag").Length<number)
         {
             Vector3 position = new Vector3(Random.Range(-7f, 8.5f), 5, Random.Range(0,10f));
-            var myNew= Instantiate(PigModel, position, Quaternion.identity);
+            var myNew = Instantiate(PigModel, position, Quaternion.identity);
             myNew.transform.parent = gameObject.transform;
         }
 	}

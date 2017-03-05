@@ -46,11 +46,13 @@ public class PlayerController : MonoBehaviour {
         }
         if(Input.GetAxis("Mouse ScrollWheel")<0)
         {
+            Cursor.visible = true;
             Tps.enabled = true;
             Fps.enabled = false;
         }
         else if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
+            Cursor.visible = false;
             Tps.enabled = false;
             Fps.enabled = true;
         }

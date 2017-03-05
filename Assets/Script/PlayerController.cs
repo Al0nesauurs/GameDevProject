@@ -13,10 +13,11 @@ public class PlayerController : MonoBehaviour {
     public Transform BulletSpawn;
     public Camera Tps;
     public Camera Fps;
+    float mouseInputX, mouseInputY;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         Tps.enabled = true;
         Fps.enabled = false;
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
@@ -26,9 +27,11 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
         //Mouse rotate control
         CanJump = IsGrounded();
-        float mouseInput = Input.GetAxis("Mouse X");
-        Vector3 lookhere = new Vector3(0, mouseInput*MouseSpeed, 0);
-        transform.Rotate(lookhere);
+
+         mouseInputY += Input.GetAxis("Mouse X")*MouseSpeed;
+         mouseInputX -= Input.GetAxis("Mouse Y")*MouseSpeed;
+         mouseInputX = Mathf.Clamp(mouseInputX, -80, 45);
+         gameObject.transform.rotation = Quaternion.Euler(mouseInputX, mouseInputY, 0);
 
         if (Input.GetAxis("Horizontal")!=0&&CanWalk)
         {

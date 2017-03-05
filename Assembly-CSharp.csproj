@@ -48,6 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Bulletmove.cs" />
      <Compile Include="Assets\GroundScript.cs" />
+     <Compile Include="Assets\InventorySystem\Inventory.cs" />
+     <Compile Include="Assets\InventorySystem\Item.cs" />
+     <Compile Include="Assets\InventorySystem\ItemDatabase.cs" />
+     <Compile Include="Assets\InventorySystem\PlayerItemScript.cs" />
      <Compile Include="Assets\Scene\Menu_Button.cs" />
      <Compile Include="Assets\Script\GameTime.cs" />
      <Compile Include="Assets\Script\ItemController.cs" />

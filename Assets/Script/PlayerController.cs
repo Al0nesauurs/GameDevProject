@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour {
     public Camera Tps;
     public Camera Fps;
     float mouseInputX, mouseInputY;
+    
 
 
     // Use this for initialization
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour {
         Tps.enabled = true;
         Fps.enabled = false;
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
+        usingitem = GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled;
     }
 	
 	// Update is called once per frame
@@ -66,12 +68,14 @@ public class PlayerController : MonoBehaviour {
                 CanWalk = false;
                 CanJump = false;
                 usingitem = true;
+                GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = true;
             }
             else if(usingitem==true)
             {
                 CanWalk = true;
                 CanJump = true;
                 usingitem = false;
+                GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = false;
             }
         }
         if(Input.GetKeyDown(KeyCode.Mouse0))

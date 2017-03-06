@@ -1,9 +1,5 @@
 How to start :
 
-git init
-
-git checkout -b test
-
 git clone https://github.com/nakid001/AOTAproject
 ///////////////////////////////////////////////////////
 
@@ -23,3 +19,4 @@ git checkout test
 DONT MERGE OR rm OR SOMETHING WEIRD!!!!!!!!!!!!!
 
 ANY Problem Contact me first !!!
+Facebook Na Parut

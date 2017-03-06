@@ -32,6 +32,11 @@ ModelImporter:
     4300004: Mesh3_Flower_Red_Model
     4300006: Mesh4_Flower_Red_Model
     4300008: Mesh5_Flower_Red_Model
+    6400000: Mesh1_Flower_Red_Model
+    6400002: Mesh2_Flower_Red_Model
+    6400004: Mesh3_Flower_Red_Model
+    6400006: Mesh4_Flower_Red_Model
+    6400008: Mesh5_Flower_Red_Model
   materials:
     importMaterials: 1
     materialName: 0
@@ -58,7 +63,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

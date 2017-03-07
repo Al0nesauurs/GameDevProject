@@ -20,14 +20,17 @@ public class Bulletmove : MonoBehaviour {
         t += Time.deltaTime;
         if (t > 5)
             Destroy(gameObject);
-//        Debug.Log(Input.mousePosition);
         gameObject.transform.Translate(Vector3.down * Time.deltaTime * 10f*speed);
-        
+        RaycastHit hit;
+        Ray fRay = new Ray(transform.position, Vector3.forward);
+
+        if (Physics.Raycast(fRay, out hit,0.5f))
+        {
+
+            ApplyDamage(hit.collider.gameObject);
+        }
 	}
-    void OnTriggerEnter(Collider other)
-    {
-        ApplyDamage(other.gameObject);
-    }
+
 
     public void ApplyDamage(GameObject other)
     {
@@ -40,7 +43,7 @@ public class Bulletmove : MonoBehaviour {
         }
         if (other.layer==9)
         {
-            Debug.Log("LAYER9");
+          //  Debug.Log("LAYER9");
             Destroy(gameObject);
         }
 

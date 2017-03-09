@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemController : MonoBehaviour
-{
+public class ItemController : MonoBehaviour {
+
     private float hp = 1;
     private float t = 0;
     // Use this for initialization

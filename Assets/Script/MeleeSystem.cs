@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class MeleeSystem : MonoBehaviour {
     public static bool clicked = false;
-    private PigController  Pigscript;
-    private TreeController Treescript;
-    private ItemController Itemscript;
-    private StoneController Stonescript;
+    private PigController Pigscript;
+    private WeaponNameController WeaponNameControl;
     public static int power = 5;
     // Use this for initialization
     private GameObject target;
@@ -34,28 +32,17 @@ public class MeleeSystem : MonoBehaviour {
     {
         if (other.tag == "PigTag")
         {
-            
+
             Pigscript = (PigController)other.GetComponent(typeof(PigController));
             Pigscript.HpController(power);
 
         }
-
-        if (other.tag == "TreeTag")
-        {
-            
-            Treescript = (TreeController)other.GetComponent(typeof(TreeController));
-            Treescript.HpController(power);
-        }
-        if (other.tag == "StoneTag")
+        if (other.tag == "LionTag")
         {
 
-            Stonescript = (StoneController)other.GetComponent(typeof(StoneController));
-            Stonescript.HpController(power);
-        }
-        if (other.tag == "ItemTag")
-        {
-            Itemscript = (ItemController)other.GetComponent(typeof(ItemController));
-            Itemscript.HpController(power);
+            Pigscript = (PigController)other.GetComponent(typeof(PigController));
+            Pigscript.HpController(power);
+
         }
     }
 }

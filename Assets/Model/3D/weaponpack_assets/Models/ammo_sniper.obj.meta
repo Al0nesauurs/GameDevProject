@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 269e84883854948129dcc9c795390ecd
-timeCreated: 1488520312
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -17,6 +15,7 @@ ModelImporter:
     3300002: Mesh2_Group3_Group1_Model
     4300000: Mesh1_Group2_Group1_Model
     4300002: Mesh2_Group3_Group1_Model
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -27,6 +26,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -41,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -79,7 +80,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour {
     public float force = 5;
     public float MouseSpeed = 3;
     private float distToGround;
-    public GameObject Bullet;
-    public Transform BulletSpawn;
+    public WeaponController WeaponControl;
+    public WeaponNameController WeaponNameControl;
     public Camera Tps;
     public Camera Fps;
     float mouseInputX, mouseInputY;
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Mouse rotate control
-        CanJump = IsGrounded();
+         CanJump = IsGrounded();
 
          mouseInputY += Input.GetAxis("Mouse X")*MouseSpeed;
          mouseInputX -= Input.GetAxis("Mouse Y")*MouseSpeed;
@@ -49,15 +49,13 @@ public class PlayerController : MonoBehaviour {
         {
             gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, 200));
         }
-        if(Input.GetAxis("Mouse ScrollWheel")<0)
+        if (Input.GetAxis("Mouse ScrollWheel") < 0)
         {
-            Cursor.visible = true;
             Tps.enabled = true;
             Fps.enabled = false;
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
-            Cursor.visible = false;
             Tps.enabled = false;
             Fps.enabled = true;
         }
@@ -80,10 +78,26 @@ public class PlayerController : MonoBehaviour {
         }
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
+            WeaponControl.CheckWeapon();
         }
-        
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            RaycastHit vHit = new RaycastHit();
+            Ray vRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(vRay, out vHit, 0.5f))
+            {
+                if (vHit.collider.gameObject.tag == "ItemTag")
+                {
+                    Debug.Log("Right");
+                    WeaponNameControl = (WeaponNameController)vHit.collider.gameObject.GetComponent(typeof(WeaponNameController));
+                    WeaponNameController.weaponname = vHit.collider.gameObject.name;
+					Destroy(vHit.collider.gameObject);
+                }
+
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }

@@ -5,9 +5,7 @@ using UnityEngine;
 public class Bulletmove : MonoBehaviour {
     private float t;
     private PigController Pigscript;
-    private TreeController Treescript;
-    private ItemController Itemscript;
-    private StoneController Stonescript;
+    private WeaponNameController WeaponNameControl;
     private int power = 10;
     public int speed = 1;
     // Use this for initialization
@@ -20,7 +18,7 @@ public class Bulletmove : MonoBehaviour {
         t += Time.deltaTime;
         if (t > 5)
             Destroy(gameObject);
-        gameObject.transform.Translate(Vector3.down * Time.deltaTime * 10f*speed);
+		gameObject.transform.Translate(Vector3.forward * Time.deltaTime * 10f*speed);
         RaycastHit hit;
         Ray fRay = new Ray(transform.position, Vector3.forward);
 
@@ -36,16 +34,11 @@ public class Bulletmove : MonoBehaviour {
     {
         if (other.tag == "PigTag")
         {
-            Destroy(gameObject);
             Pigscript = (PigController)other.GetComponent(typeof(PigController));
             Pigscript.HpController(power);
 
         }
-        if (other.layer==9)
-        {
-          //  Debug.Log("LAYER9");
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
 
     }
 }

@@ -85,6 +85,7 @@
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Model\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Model\3D\Kristoff Young\Textures Kristoff.txt" />
      <None Include="Assets\Model\3D\weaponpack_assets\License.txt" />
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />

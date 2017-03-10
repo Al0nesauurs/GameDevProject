@@ -49,7 +49,7 @@ public class WeaponController : MonoBehaviour {
         {
             hit = true;
         }
-        else if (gameObject.name=="pistol")
+        else if (gameObject.name=="pistol"|| gameObject.name == "pistol(Clone)")
         {
             Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
         }

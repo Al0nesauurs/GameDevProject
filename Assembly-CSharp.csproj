@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1C27E3C-1C06-79B1-AF38-38A318407A9D}</ProjectGuid>
+    <ProjectGuid>{51CBAA5B-8961-2650-7189-1AC8F761431E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -76,6 +76,10 @@
      <Compile Include="Assets\Script\PigSpawn.cs" />
      <Compile Include="Assets\Script\PlayerArmController.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
+     <Compile Include="Assets\Script\StoneController.cs" />
+     <Compile Include="Assets\Script\StoneSpawn.cs" />
+     <Compile Include="Assets\Script\TreeController.cs" />
+     <Compile Include="Assets\Script\TreeSpawn.cs" />
      <Compile Include="Assets\Script\WeaponController.cs" />
      <Compile Include="Assets\Script\WeaponNameController.cs" />
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -89,6 +93,9 @@
      <None Include="Assets\Model\3D\watercraftpack_kenney\Tools\Three.js (Blender)\readme.txt" />
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -103,6 +110,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

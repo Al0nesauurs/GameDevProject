@@ -29,6 +29,7 @@ public class WeaponNameController : MonoBehaviour
 		}
         if(weaponname=="pistol" && Input.GetKeyDown(KeyCode.G)|| weaponname == "pistol(Clone)" && Input.GetKeyDown(KeyCode.G))
         {
+            PlayerController.canrightclick = true;
             Debug.Log("DropWeapon");
             weaponname = "hand";
             Cursor.visible = true;

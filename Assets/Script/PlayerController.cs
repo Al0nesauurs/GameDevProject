@@ -24,10 +24,12 @@ public class PlayerController : MonoBehaviour {
         Fps.enabled = false;
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
         //usingitem = GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled;
+        GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         //Mouse rotate control
          CanJump = IsGrounded();
 
@@ -52,11 +54,13 @@ public class PlayerController : MonoBehaviour {
         }
         if (Input.GetAxis("Mouse ScrollWheel") < 0)
         {
+            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
             Tps.enabled = true;
             Fps.enabled = false;
         }
         else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
+            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
             Tps.enabled = false;
             Fps.enabled = true;
         }

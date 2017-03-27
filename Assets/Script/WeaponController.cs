@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WeaponController : MonoBehaviour {
 
@@ -8,8 +9,12 @@ public class WeaponController : MonoBehaviour {
     public Transform BulletSpawn;
     public GameObject Pistol;
     public Transform ArmLocate;
+    public static int ammo =0;
     float t = 0;
     bool hit = false;
+    float timeReload = 0;
+    bool startReload = false;
+
 
     void Start () {
 	}
@@ -18,7 +23,27 @@ public class WeaponController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		BulletSpawn = GameObject.Find ("BulletSpawn").transform;
-
+        if (startReload)
+        {
+            timeReload += Time.deltaTime;
+            if (timeReload < 3)
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOADING IN "+(int)(4-timeReload)+"";
+            else
+            {
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "+";
+                Debug.Log("RELOAD!" + timeReload);
+                if (gameObject.name == "pistol" || gameObject.name == "pistol(Clone)")
+                {
+                    ammo = 10;
+                }
+                if (gameObject.name == "machinegun" || gameObject.name == "machinegun(Clone)")
+                {
+                    ammo = 30;
+                }
+                startReload = false;
+                timeReload = 0;
+            }
+        }
         if (hit)
         {
             t += Time.deltaTime;
@@ -41,6 +66,10 @@ public class WeaponController : MonoBehaviour {
                 t = 0;
             }
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            startReload = true;
+        }
     }
     public void CheckWeapon()
     {
@@ -49,9 +78,18 @@ public class WeaponController : MonoBehaviour {
         {
             hit = true;
         }
-        else if (gameObject.name=="pistol"|| gameObject.name == "pistol(Clone)")
+        else if (gameObject.name=="pistol"|| gameObject.name == "pistol(Clone)"|| gameObject.name == "machinegun" || gameObject.name == "machinegun(Clone)")
         {
-            Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
+            if (ammo > 0)
+            {
+                Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
+                ammo--;
+            }
+            if(ammo==0)
+            {
+               GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
+            }
         }
     }
+    
 }

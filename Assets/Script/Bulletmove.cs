@@ -6,7 +6,7 @@ public class Bulletmove : MonoBehaviour {
     private float t;
     private PigController Pigscript;
     private WeaponNameController WeaponNameControl;
-    private int power = 10;
+    public static int power = 10;
     public int speed = 1;
     // Use this for initialization
     void Start () {

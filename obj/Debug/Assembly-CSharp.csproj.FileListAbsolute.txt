@@ -28,3 +28,6 @@ C:\Users\KID\Desktop\All computer\mygit\myUnity\Advanture of the ancient\Temp\bi
 C:\Users\KID\Desktop\All computer\mygit\myUnity\Advanture of the ancient\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\KID\Desktop\All computer\mygit\myUnity\Advanture of the ancient\obj\Debug\Assembly-CSharp.dll
 C:\Users\KID\Desktop\All computer\mygit\myUnity\Advanture of the ancient\obj\Debug\Assembly-CSharp.pdb
+C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\obj\Debug\Assembly-CSharp.dll
+C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\obj\Debug\Assembly-CSharp.pdb

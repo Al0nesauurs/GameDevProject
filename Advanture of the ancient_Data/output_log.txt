@@ -1,109 +1,37 @@
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GT 620 (ID=0xf01)
-    Vendor:   NVIDIA
-    VRAM:     979 MB
-    Driver:   21.21.13.7892
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     445 MB
+    Driver:   8.15.10.2189
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.038 seconds
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\System.dll (this message is harmless)
-desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.234 seconds
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\KID\Desktop\AllComputer\mygit\myunity\GameDev\Advanture of the ancient_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.608951 ms
+UnloadTime: 114.021965 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: bc4 -> priority: 1 
+  Thread -> id: b01c -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.049503 ms
+UnloadTime: 15.236179 ms
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 678.
-Total: 0.820708 ms (FindLiveObjects: 0.108217 ms CreateObjectMapping: 0.050966 ms MarkObjects: 0.346296 ms  DeleteObjects: 0.313481 ms)
-
-Add Weaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DropWeapon
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.002861
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 677.
+Total: 27.858490 ms (FindLiveObjects: 0.093366 ms CreateObjectMapping: 0.054969 ms MarkObjects: 27.176226 ms  DeleteObjects: 0.531908 ms)
 
 Add Weaponmachinegun
  
@@ -145,102 +73,6 @@ CheckWEaponmachinegun
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.004925
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -261,239 +93,11 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 DropWeapon
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.005116
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Add Weaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DropWeapon
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Add Weaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.005028
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DropWeapon
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Add Weaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.005159
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.00499
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.011615
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponpistol(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
     public WeaponNameController WeaponNameControl;
     public Camera Tps;
     public Camera Fps;
+    public static bool canrightclick = true;
     float mouseInputX, mouseInputY;
     
 
@@ -22,11 +23,13 @@ public class PlayerController : MonoBehaviour {
         Tps.enabled = true;
         Fps.enabled = false;
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
-        usingitem = GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled;
+        //usingitem = GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled;
+        GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         //Mouse rotate control
          CanJump = IsGrounded();
 
@@ -51,11 +54,13 @@ public class PlayerController : MonoBehaviour {
         }
         if (Input.GetAxis("Mouse ScrollWheel") < 0)
         {
+            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
             Tps.enabled = true;
             Fps.enabled = false;
         }
         else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
+            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
             Tps.enabled = false;
             Fps.enabled = true;
         }
@@ -84,14 +89,15 @@ public class PlayerController : MonoBehaviour {
         {
             RaycastHit vHit = new RaycastHit();
             Ray vRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(vRay, out vHit, 0.5f))
+            if (Physics.Raycast(vRay, out vHit, 0.5f)&&canrightclick)
             {
                 if (vHit.collider.gameObject.tag == "ItemTag")
                 {
-                    Debug.Log("Right");
+                    //Debug.Log("Right");
                     WeaponNameControl = (WeaponNameController)vHit.collider.gameObject.GetComponent(typeof(WeaponNameController));
                     WeaponNameController.weaponname = vHit.collider.gameObject.name;
 					Destroy(vHit.collider.gameObject);
+                    canrightclick = false;
                 }
 
             }

@@ -22,7 +22,7 @@ public class Bulletmove : MonoBehaviour {
         RaycastHit hit;
         Ray fRay = new Ray(transform.position, Vector3.forward);
 
-        if (Physics.Raycast(fRay, out hit,0.5f))
+        if (Physics.Raycast(fRay, out hit,1.5f))
         {
 
             ApplyDamage(hit.collider.gameObject);

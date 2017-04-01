@@ -52,13 +52,13 @@ public class PlayerController : MonoBehaviour {
         {
             gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, 200));
         }
-        if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        if (Input.GetAxis("Mouse ScrollWheel") < 0 || Input.GetKeyDown(KeyCode.Z) && Tps.enabled == false)
         {
             GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
             Tps.enabled = true;
             Fps.enabled = false;
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
+        else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z)&& Tps.enabled == true)
         {
             GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
             Tps.enabled = false;

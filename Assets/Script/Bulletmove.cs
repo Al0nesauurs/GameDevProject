@@ -8,6 +8,8 @@ public class Bulletmove : MonoBehaviour {
     private WeaponNameController WeaponNameControl;
     public static int power = 10;
     public int speed = 1;
+    RaycastHit hit;
+
     // Use this for initialization
     void Start () {
 		
@@ -19,7 +21,6 @@ public class Bulletmove : MonoBehaviour {
         if (t > 5)
             Destroy(gameObject);
 		gameObject.transform.Translate(Vector3.forward * Time.deltaTime * 10f*speed);
-        RaycastHit hit;
         Ray fRay = new Ray(transform.position, Vector3.forward);
 
         if (Physics.Raycast(fRay, out hit,1.5f))

@@ -13,7 +13,7 @@ public class WeaponController : MonoBehaviour {
     float t = 0;
     bool hit = false;
     float timeReload = 0;
-    bool startReload = false;
+    public static bool startReload = false;
 
 
     void Start () {
@@ -23,6 +23,7 @@ public class WeaponController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		BulletSpawn = GameObject.Find ("BulletSpawn").transform;
+
         if (startReload)
         {
             timeReload += Time.deltaTime;
@@ -66,10 +67,7 @@ public class WeaponController : MonoBehaviour {
                 t = 0;
             }
         }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            startReload = true;
-        }
+
     }
     public void CheckWeapon()
     {

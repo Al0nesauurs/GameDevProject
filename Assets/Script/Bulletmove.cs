@@ -21,25 +21,33 @@ public class Bulletmove : MonoBehaviour {
         if (t > 5)
             Destroy(gameObject);
 		gameObject.transform.Translate(Vector3.forward * Time.deltaTime * 10f*speed);
-        Ray fRay = new Ray(transform.position, Vector3.forward);
+       /* Ray fRay = new Ray(transform.position, Vector3.forward);
 
         if (Physics.Raycast(fRay, out hit,1.5f))
         {
 
-            ApplyDamage(hit.collider.gameObject);
-        }
+        }*/
 	}
 
 
     public void ApplyDamage(GameObject other)
     {
+        Debug.Log("Bullet hit -> "+other);
         if (other.tag == "PigTag")
         {
             Pigscript = (PigController)other.GetComponent(typeof(PigController));
             Pigscript.HpController(power);
 
         }
-        Destroy(gameObject);
+        if(other.tag!="ItemTag")
+         Destroy(gameObject);
+
+    }
+    public void OnTriggerEnter (Collider other )
+    {
+        Debug.Log("Bullet hit -> " + other.gameObject);
+
+        ApplyDamage(other.gameObject);
 
     }
 }

@@ -103,6 +103,12 @@ public class PlayerController : MonoBehaviour {
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.R)&&WeaponNameController.weaponname!="hand")
+        {
+            WeaponController.ammo = 0;
+            WeaponController.startReload = true;
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();

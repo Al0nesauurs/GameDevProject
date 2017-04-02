@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class WeaponNameController : MonoBehaviour
 {
 
@@ -23,14 +23,16 @@ public class WeaponNameController : MonoBehaviour
         {
             if (weaponname == "pistol" || weaponname == "pistol(Clone)")
             {
-                myNew = Instantiate(Pistol, gameObject.transform.position, gameObject.transform.rotation);
-                WeaponController.ammo = 10;
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "Reload first!!!";
+                myNew = Instantiate(Pistol, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y-0.06f, gameObject.transform.position.z), gameObject.transform.rotation);
+                WeaponController.ammo = 0;
                 Bulletmove.power = 10;
             }
             else if (weaponname == "machinegun" || weaponname == "machinegun(Clone)")
              {
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "Reload first!!!";
                 myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
-                WeaponController.ammo = 30;
+                WeaponController.ammo = 0;
                 Bulletmove.power = 20;
             }
             Debug.Log("Add Weapon" + weaponname);
@@ -42,19 +44,21 @@ public class WeaponNameController : MonoBehaviour
         if(weaponname=="pistol" && Input.GetKeyDown(KeyCode.G)|| weaponname == "pistol(Clone)" && Input.GetKeyDown(KeyCode.G) ||
             weaponname == "machinegun" && Input.GetKeyDown(KeyCode.G) || weaponname == "machinegun(Clone)"&& Input.GetKeyDown(KeyCode.G))
         {
-            PlayerController.canrightclick = true;
-            Debug.Log("DropWeapon");
-            weaponname = "hand";
-            Cursor.visible = true;
-            parented = false;
-            myNew.transform.parent = null;
-            fix = true;
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "+";
+                PlayerController.canrightclick = true;
+                Debug.Log("DropWeapon");
+                weaponname = "hand";
+                Cursor.visible = true;
+                parented = false;
+                myNew.transform.parent = null;
+                fix = true;
+
+
         }
 
         gameObject.name = weaponname;
 	}
 
-    // Update is called once per frame
 
 
 }

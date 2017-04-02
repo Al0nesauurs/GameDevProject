@@ -17,51 +17,39 @@ Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProjec
 Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.038 seconds
+- Completed reload, in  0.041 seconds
 Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\KID\Desktop\All computer\mygit\myUnity\GameDevProject\Advanture of the ancient_Data\Managed\System.dll (this message is harmless)
 desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.383434 ms
+UnloadTime: 1.570196 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1904 -> priority: 1 
+  Thread -> id: 1018 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.895181 ms
+UnloadTime: 10.088984 ms
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1489.
-Total: 0.850028 ms (FindLiveObjects: 0.105773 ms CreateObjectMapping: 0.063533 ms MarkObjects: 0.364447 ms  DeleteObjects: 0.315924 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1473.
+Total: 1.025270 ms (FindLiveObjects: 0.133002 ms CreateObjectMapping: 0.039796 ms MarkObjects: 0.420999 ms  DeleteObjects: 0.430774 ms)
 
-Add Weaponmachinegun
+Add Weaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+RELOAD!3.005522
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -69,35 +57,23 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -105,43 +81,27 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -149,7 +109,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -157,11 +125,23 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+RELOAD!3.005562
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -169,19 +149,271 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD!3.005281
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD!3.005258
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -193,23 +425,19 @@ stage= 0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-RELOAD!3.004325
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -217,19 +445,11 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -237,23 +457,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -261,7 +473,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -269,7 +489,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -277,43 +505,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -321,11 +521,263 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD!3.005461
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD!3.007102
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD!3.004883
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -337,43 +789,19 @@ stage= 1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+RELOAD!3.006126
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RELOAD!3.005823
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -381,7 +809,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -389,23 +825,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -413,39 +841,15 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponpistol
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -453,51 +857,47 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-RELOAD!3.005888
+DropWeapon
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Add Weaponmachinegun(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+RELOAD!3.001832
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponmachinegun(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponmachinegun(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -505,23 +905,11 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-HP CON!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-stage= 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CheckWEaponmachinegun
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -529,23 +917,75 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponmachinegun(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> meat(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> meat(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> meat(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> meat(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+HP CON!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> pig1(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -553,39 +993,319 @@ HP CON!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponmachinegun(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> meat(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> meat(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
+RELOAD!3.005049
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+CheckWEaponmachinegun(Clone)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CheckWEaponmachinegun
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-HP CON!
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bullet hit -> machinegun(Clone) (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CheckWEaponmachinegun(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD!3.004737
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

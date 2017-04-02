@@ -14,9 +14,15 @@ public class WeaponController : MonoBehaviour {
     bool hit = false;
     float timeReload = 0;
     public static bool startReload = false;
-
+    //sound part
+    public AudioClip HandgunSound;
+    public AudioClip MachinegunSound;
+    public AudioClip HandgunSoundR;
+    public AudioClip MachinegunSoundR;
+    private AudioSource source;
 
     void Start () {
+        source = GetComponent<AudioSource>();
 	}
 
 	
@@ -76,16 +82,32 @@ public class WeaponController : MonoBehaviour {
         {
             hit = true;
         }
-        else if (gameObject.name=="pistol"|| gameObject.name == "pistol(Clone)"|| gameObject.name == "machinegun" || gameObject.name == "machinegun(Clone)")
+        else if (gameObject.name=="pistol"|| gameObject.name == "pistol(Clone)")
         {
             if (ammo > 0)
             {
+                source.PlayOneShot(HandgunSound, 1F);
                 Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
                 ammo--;
             }
             if(ammo==0)
             {
-               GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
+                source.PlayOneShot(HandgunSoundR, 1F);
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
+            }
+        }
+        else if (gameObject.name == "machinegun" || gameObject.name == "machinegun(Clone)")
+        {
+            if (ammo > 0)
+            {
+                source.PlayOneShot(MachinegunSound, 1F);
+                Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
+                ammo--;
+            }
+            if (ammo == 0)
+            {
+                source.PlayOneShot(MachinegunSoundR, 1F);
+                GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
             }
         }
     }

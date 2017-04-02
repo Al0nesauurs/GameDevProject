@@ -9,7 +9,7 @@ public class SpawnUnitStep : MonoBehaviour {
     int stage = 0;
     public GameObject myNew;
     public GameObject MachineGun;
-    bool spawnMatchine = true;
+    bool spawnMachine = true;
     void start()
     {
 
@@ -17,7 +17,7 @@ public class SpawnUnitStep : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameObject.FindGameObjectsWithTag("PigTag").Length==0)
+        if (GameObject.FindGameObjectsWithTag("PigTag").Length==0&& GameObject.FindGameObjectsWithTag("LionTag").Length == 0)
         {
             Debug.Log("stage= " + stage);
             PigSpawn.number = maxpig[stage];
@@ -26,10 +26,10 @@ public class SpawnUnitStep : MonoBehaviour {
             LionSpawn.start = true;
             stage++;
         }
-        if (stage == 2&&spawnMatchine)
+        if (stage == 2&&spawnMachine)
         {
             myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
-            spawnMatchine = false;
+            spawnMachine = false;
         }
 
 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bulletmove : MonoBehaviour {
     private float t;
     private PigController Pigscript;
+    private LionController Lionscript;
     private WeaponNameController WeaponNameControl;
     public static int power = 10;
     public int speed = 1;
@@ -37,9 +38,13 @@ public class Bulletmove : MonoBehaviour {
         {
             Pigscript = (PigController)other.GetComponent(typeof(PigController));
             Pigscript.HpController(power);
-
         }
-        if(other.tag!="ItemTag")
+        if (other.tag == "LionTag")
+        {
+            Lionscript = (LionController)other.GetComponent(typeof(LionController));
+            Lionscript.HpController(power);
+        }
+        if (other.tag!="ItemTag")
          Destroy(gameObject);
 
     }

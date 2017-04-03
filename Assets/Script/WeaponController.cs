@@ -78,11 +78,11 @@ public class WeaponController : MonoBehaviour {
     public void CheckWeapon()
     {
         Debug.Log("CheckWEapon" + gameObject.name);
-        if(gameObject.name=="hand")
+        if (gameObject.name == "hand")
         {
             hit = true;
         }
-        else if (gameObject.name=="pistol"|| gameObject.name == "pistol(Clone)")
+        else if (gameObject.name == "pistol" || gameObject.name == "pistol(Clone)")
         {
             if (ammo > 0)
             {
@@ -90,7 +90,7 @@ public class WeaponController : MonoBehaviour {
                 Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
                 ammo--;
             }
-            if(ammo==0)
+            if (ammo == 0)
             {
                 source.PlayOneShot(HandgunSoundR, 1F);
                 GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
@@ -109,7 +109,7 @@ public class WeaponController : MonoBehaviour {
                 source.PlayOneShot(MachinegunSoundR, 1F);
                 GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
             }
-        }
+        } 
     }
     
 }

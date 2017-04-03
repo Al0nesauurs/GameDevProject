@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour {
     public Camera Fps;
     public static bool canrightclick = true;
     float mouseInputX, mouseInputY;
+    public int PlayerHealth;
     
 
 
@@ -25,6 +26,8 @@ public class PlayerController : MonoBehaviour {
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
         //usingitem = GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled;
         GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
+
+        PlayerHealth = 100;
 
     }
 
@@ -115,7 +118,16 @@ public class PlayerController : MonoBehaviour {
         }
 
     }
+
+    public void TakeDamage(int damage)
+    {
+        PlayerHealth -= damage;
+        Debug.Log("Hit");
+        if (PlayerHealth <= 0) ;
+            //Destroy(this.gameObject);
+    }
+
     bool IsGrounded(){
-   return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
- }
+        return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
+    }
 }

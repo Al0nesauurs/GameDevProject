@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class LionController : MonoBehaviour {
 
-    Transform playerarm;
+    GameObject player;
+    Transform playertran;
     float trun = 0;
-    private float hp = 50;
+    public int hp = 50;
     public static float damageApply = 0;
     bool running = false;
     bool fliping = false;
@@ -14,19 +15,23 @@ public class LionController : MonoBehaviour {
     public float speedup = 0;
     public GameObject meat;
     public float lionspeed = 0.03f;
+    UnityEngine.AI.NavMeshAgent nav;
 
     // Use this for initialization
     void Start()
     {
-        playerarm = GameObject.Find("PlayerArm").GetComponent<Transform>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        playertran = player.transform; 
+
+        nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (running)
+        if (true)
         {
-            run(trun += Time.deltaTime);
+            run();
         }
         else
         {
@@ -72,18 +77,15 @@ public class LionController : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-    void run(float timerun)
+    void run()
     {
 
-        if (timerun >= 10)
-        {
-            running = false;
-            trun = 0;
-        }
-        var targetPosition = playerarm.position;
-        targetPosition.y = transform.position.y;
-        gameObject.transform.LookAt(targetPosition);
-        gameObject.transform.Translate(Vector3.forward * lionspeed * 2.75f);
+        var targetPosition = playertran.position;
+        //targetPosition.y = transform.position.y;
+        //gameObject.transform.LookAt(targetPosition);
+        //gameObject.transform.Translate(Vector3.forward * lionspeed * 2.75f);
+
+        nav.SetDestination(targetPosition); 
 
     }
     void DropItem()

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerController : MonoBehaviour {
     private bool CanWalk = true;
@@ -15,7 +17,8 @@ public class PlayerController : MonoBehaviour {
     public Camera Fps;
     public static bool canrightclick = true;
     float mouseInputX, mouseInputY;
-    
+    public int PlayerHealth=100;
+
 
 
     // Use this for initialization
@@ -113,7 +116,17 @@ public class PlayerController : MonoBehaviour {
         {
             Application.Quit();
         }
-
+    }
+    public void TakeDamage(int damage)
+    {
+        PlayerHealth -= damage;
+        Debug.Log("DAMAGE! "+damage);
+        if (PlayerHealth <= 0)
+        {
+            CanWalk = true;
+            CanJump = true;
+            GameObject.Find("Crosshair").GetComponent<Text>().text = "You are DEAD!";
+        }
     }
     bool IsGrounded(){
    return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);

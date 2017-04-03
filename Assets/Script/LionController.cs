@@ -6,7 +6,7 @@ public class LionController : MonoBehaviour {
 
     Transform playerarm;
     float trun = 0;
-    private float hp = 50;
+    public float hp = 50;
     public static float damageApply = 0;
     bool running = false;
     bool fliping = false;

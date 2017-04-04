@@ -20,7 +20,7 @@ public class EnemyAttack : MonoBehaviour
     void Awake()
     {
         // Setting up the references.
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.Find("Player");
         playerarm = GameObject.Find("PlayerArm");
         playerctl = player.GetComponent<PlayerController>();
         lionctl = GetComponent<LionController>();
@@ -66,11 +66,11 @@ public class EnemyAttack : MonoBehaviour
         }
 
         // If the player has zero or less health...
-        if (playerctl.PlayerHealth <= 0)
+        /*if (playerctl.PlayerHealth <= 0)
         {
             // ... tell the animator the player is dead.
             //anim.SetTrigger("PlayerDead");
-        }
+        }*/
     }
 
 

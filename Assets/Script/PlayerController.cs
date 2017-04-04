@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour {
     public void TakeDamage(int damage)
     {
         PlayerHealth -= damage;
-        Debug.Log("Hit");
+        Debug.Log("Hit"+PlayerHealth);
         if (PlayerHealth <= 0) ;
             //Destroy(this.gameObject);
     }

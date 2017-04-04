@@ -31,8 +31,5 @@ public class SpawnUnitStep : MonoBehaviour {
             myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
             spawnMachine = false;
         }
-
-
-
     }
 }

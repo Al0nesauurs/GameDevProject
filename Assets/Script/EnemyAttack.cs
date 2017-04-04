@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 public class EnemyAttack : MonoBehaviour
 {
     public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
@@ -17,10 +16,9 @@ public class EnemyAttack : MonoBehaviour
     float timer;                                // Timer for counting up to the next attack.
 
 
-    void Awake()
+    void Start()
     {
-        // Setting up the references.
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.Find("Player");
         playerarm = GameObject.Find("PlayerArm");
         playerctl = player.GetComponent<PlayerController>();
         lionctl = GetComponent<LionController>();
@@ -53,10 +51,7 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
-
-        //Debug.Log(playerInRange);
-
-        // Add the time since Update was last called to the timer.
+       // Add the time since Update was last called to the timer.
         timer += Time.deltaTime;
 
         // If the timer exceeds the time between attacks, the player is in range and this enemy is alive...
@@ -65,16 +60,8 @@ public class EnemyAttack : MonoBehaviour
             // ... attack.
             Attack();
         }
-
-        // If the player has zero or less health...
-        if (playerctl.PlayerHealth <= 0)
-        {
-            // ... tell the animator the player is dead.
-            //anim.SetTrigger("PlayerDead");
-        }
     }
-
-
+    
     void Attack()
     {
         // Reset the timer.

@@ -10,12 +10,6 @@ public class Bulletmove : MonoBehaviour {
     public static int power = 10;
     public int speed = 1;
     RaycastHit hit;
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
         t += Time.deltaTime;

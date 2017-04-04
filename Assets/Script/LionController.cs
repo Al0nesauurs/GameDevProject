@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LionController : MonoBehaviour {
 
+    UnityEngine.AI.NavMeshAgent nav;
     GameObject player;
     Transform playertran;
     float trun = 0;
@@ -15,7 +16,8 @@ public class LionController : MonoBehaviour {
     public float speedup = 0;
     public GameObject meat;
     public float lionspeed = 0.03f;
-    UnityEngine.AI.NavMeshAgent nav;
+    int fieldOfViewRange = 45;
+
 
     // Use this for initialization
     void Start()
@@ -29,12 +31,17 @@ public class LionController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (true)
+        if (running)
         {
             run();
         }
         else
         {
+            if (CanSeePlayer())
+            {
+                Debug.Log("Detected!!!");
+                running = true;
+            }
             if (TimetoWalk <= 0)
             {
                 if (!fliping)
@@ -77,20 +84,52 @@ public class LionController : MonoBehaviour {
             Destroy(gameObject);
         }
     }
+
     void run()
     {
-
         var targetPosition = playertran.position;
-        //targetPosition.y = transform.position.y;
-        //gameObject.transform.LookAt(targetPosition);
-        //gameObject.transform.Translate(Vector3.forward * lionspeed * 2.75f);
-
         nav.SetDestination(targetPosition); 
-
     }
+
     void DropItem()
     {
         Vector3 meatposition = new Vector3(Random.Range(gameObject.transform.position.x + 0.3f, gameObject.transform.position.x - 0.3f), gameObject.transform.position.y, gameObject.transform.position.z);
         Instantiate(meat, meatposition, Quaternion.identity);
     }
+
+    bool CanSeePlayer()
+    {
+        var rayDirection = player.transform.position - transform.position;
+        RaycastHit hit;
+        int layerMask = 1 << 10;
+        layerMask = ~layerMask;
+        if (Physics.Raycast(transform.position, rayDirection, out hit,7,layerMask))
+        { // If the player is very close behind the player and in view the enemy will detect the player
+          //Debug.Log(hit.transform.name);
+          if (hit.transform.tag == "Player")
+          { 
+              //Debug.Log("Close");
+              return true;
+          }
+        }
+        if ((Vector3.Angle(rayDirection, transform.forward)) <= fieldOfViewRange)
+        { 
+           // Detect if player is within the field of view
+           if (Physics.Raycast(transform.position, rayDirection, out hit,20,layerMask))
+           {
+              //Debug.Log((Vector3.Angle(rayDirection, transform.forward)));
+              if (hit.transform.tag == "Player")
+              {
+                 //Debug.Log("Can see player");
+                 return true;
+              }
+              else
+              {
+                 //Debug.Log("Can not see player");
+                 return false;
+              }
+           }
+         }
+         return false;
+     }
 }

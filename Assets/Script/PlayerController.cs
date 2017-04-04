@@ -22,17 +22,14 @@ public class PlayerController : MonoBehaviour {
 
 
 
-    // Use this for initialization
     void Start () {
         Tps.enabled = true;
         Fps.enabled = false;
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
-        //usingitem = GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled;
         GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = false;
 
     }
 
-    // Update is called once per frame
     void Update () {
         //Mouse rotate control
          CanJump = IsGrounded();
@@ -118,6 +115,7 @@ public class PlayerController : MonoBehaviour {
             Application.Quit();
         }
     }
+
     public void TakeDamage(int damage)
     {
         PlayerHealth -= damage;
@@ -131,7 +129,9 @@ public class PlayerController : MonoBehaviour {
             GameObject.Find("Crosshair").GetComponent<Text>().text = "You are DEAD!";
         }
     }
-    bool IsGrounded(){
-   return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
- }
+
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
+    }
 }

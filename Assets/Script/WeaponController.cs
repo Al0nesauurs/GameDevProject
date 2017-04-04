@@ -20,7 +20,7 @@ public class WeaponController : MonoBehaviour {
     public AudioClip HandgunSoundR;
     public AudioClip MachinegunSoundR;
     private AudioSource source;
-
+    //end sound part
     void Start () {
         source = GetComponent<AudioSource>();
 	}

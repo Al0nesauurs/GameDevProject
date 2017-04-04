@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
     public static bool canrightclick = true;
     float mouseInputX, mouseInputY;
     public int PlayerHealth=100;
+    public Slider healthSlider;
 
 
 
@@ -53,7 +54,7 @@ public class PlayerController : MonoBehaviour {
 
         if(Input.GetKeyDown(KeyCode.Space)&&CanJump)
         {
-            gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, 200));
+            gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, 2000));
         }
         if (Input.GetAxis("Mouse ScrollWheel") < 0 || Input.GetKeyDown(KeyCode.Z) && Tps.enabled == false)
         {
@@ -120,11 +121,13 @@ public class PlayerController : MonoBehaviour {
     public void TakeDamage(int damage)
     {
         PlayerHealth -= damage;
-        Debug.Log("DAMAGE! "+damage);
+        healthSlider.value = PlayerHealth;
+        Debug.Log("DAMAGE! "+damage + "now player health = "+PlayerHealth);
         if (PlayerHealth <= 0)
         {
-            CanWalk = true;
-            CanJump = true;
+            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
+            CanWalk = false;
+            CanJump = false;
             GameObject.Find("Crosshair").GetComponent<Text>().text = "You are DEAD!";
         }
     }

@@ -31,7 +31,7 @@ public class EnemyAttack : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // If the entering collider is the player...
-        if (other.gameObject.tag == "Player" )
+        if (other.gameObject == player)
         {
             // ... the player is in range.
             Debug.Log("Lion hitting " + other.gameObject);

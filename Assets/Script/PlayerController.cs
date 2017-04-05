@@ -4,25 +4,28 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
     private bool CanWalk = true;
     private bool CanJump = true;
     private bool usingitem = false;
+    public static bool CursorResume = true;
+    public static bool canrightclick = true;
+    private float distToGround;
     public float force = 5;
     public float MouseSpeed = 3;
-    private float distToGround;
+    float mouseInputX, mouseInputY;
+    public int PlayerHealth = 100;
     public WeaponController WeaponControl;
     public WeaponNameController WeaponNameControl;
     public Camera Tps;
     public Camera Fps;
-    public static bool canrightclick = true;
-    float mouseInputX, mouseInputY;
-    public int PlayerHealth=100;
     public Slider healthSlider;
 
 
 
-    void Start () {
+    void Start()
+    {
         Tps.enabled = true;
         Fps.enabled = false;
         distToGround = GameObject.Find("LegRight").GetComponent<Collider>().bounds.extents.y;
@@ -30,26 +33,27 @@ public class PlayerController : MonoBehaviour {
 
     }
 
-    void Update () {
+    void Update()
+    {
         //Mouse rotate control
-         CanJump = IsGrounded();
+        CanJump = IsGrounded();
 
-         mouseInputY += Input.GetAxis("Mouse X")*MouseSpeed;
-         mouseInputX -= Input.GetAxis("Mouse Y")*MouseSpeed;
-         mouseInputX = Mathf.Clamp(mouseInputX, -80, 45);
-         gameObject.transform.rotation = Quaternion.Euler(mouseInputX, mouseInputY, 0);
+        mouseInputY += Input.GetAxis("Mouse X") * MouseSpeed * Time.deltaTime * 20;
+        mouseInputX -= Input.GetAxis("Mouse Y") * MouseSpeed * Time.deltaTime * 20;
+        mouseInputX = Mathf.Clamp(mouseInputX, -80, 45);
+        gameObject.transform.rotation = Quaternion.Euler(mouseInputX, mouseInputY, 0);
 
-        if (Input.GetAxis("Horizontal")!=0&&CanWalk)
+        if (Input.GetAxis("Horizontal") != 0 && CanWalk)
         {
-            gameObject.transform.Translate(Input.GetAxis("Horizontal") *Vector3.right*Time.deltaTime * 1f*force);
+            gameObject.transform.Translate(Input.GetAxis("Horizontal") * Vector3.right * Time.deltaTime * 1f * force);
         }
 
-        if(Input.GetAxis("Vertical")!=0&&CanWalk)
+        if (Input.GetAxis("Vertical") != 0 && CanWalk)
         {
-            gameObject.transform.Translate(Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime * 1f*force);
+            gameObject.transform.Translate(Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime * 1f * force);
         }
 
-        if(Input.GetKeyDown(KeyCode.Space)&&CanJump)
+        if (Input.GetKeyDown(KeyCode.Space) && CanJump)
         {
             gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, 2000));
         }
@@ -59,7 +63,7 @@ public class PlayerController : MonoBehaviour {
             Tps.enabled = true;
             Fps.enabled = false;
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z)&& Tps.enabled == true)
+        else if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z) && Tps.enabled == true)
         {
             GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
             Tps.enabled = false;
@@ -67,44 +71,50 @@ public class PlayerController : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.I))
         {
-            if(usingitem==false)
+            if (WeaponNameController.weaponname != "hand")
             {
-                CanWalk = false;
-                CanJump = false;
-                usingitem = true;
+                CursorResume = false;
+            }
+            if (Time.timeScale == 1)
+            {
+                Cursor.visible = true;
+                Time.timeScale = 0;
                 GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = true;
             }
-            else if(usingitem==true)
+            else
             {
-                CanWalk = true;
-                CanJump = true;
-                usingitem = false;
+                if (CursorResume)
+                    Cursor.visible = true; 
+                else
+                    Cursor.visible=false;
+                Time.timeScale = 1;
                 GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = false;
             }
+
         }
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0)&&Time.timeScale == 1)
         {
             WeaponControl.CheckWeapon();
         }
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Mouse1)&&Time.timeScale == 1)
         {
             RaycastHit vHit = new RaycastHit();
             Ray vRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(vRay, out vHit, 0.5f)&&canrightclick)
+            if (Physics.Raycast(vRay, out vHit, 0.5f) && canrightclick)
             {
                 if (vHit.collider.gameObject.tag == "ItemTag")
                 {
                     //Debug.Log("Right");
                     WeaponNameControl = (WeaponNameController)vHit.collider.gameObject.GetComponent(typeof(WeaponNameController));
                     WeaponNameController.weaponname = vHit.collider.gameObject.name;
-					Destroy(vHit.collider.gameObject);
+                    Destroy(vHit.collider.gameObject);
                     canrightclick = false;
                 }
 
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.R)&&WeaponNameController.weaponname!="hand")
+        if (Input.GetKeyDown(KeyCode.R) && WeaponNameController.weaponname != "hand"&&Time.timeScale == 1)
         {
             WeaponController.ammo = 0;
             WeaponController.startReload = true;
@@ -120,12 +130,11 @@ public class PlayerController : MonoBehaviour {
     {
         PlayerHealth -= damage;
         healthSlider.value = PlayerHealth;
-        Debug.Log("DAMAGE! "+damage + "now player health = "+PlayerHealth);
+        Debug.Log("DAMAGE! " + damage + "now player health = " + PlayerHealth);
         if (PlayerHealth <= 0)
         {
+            Time.timeScale = 0;
             GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
-            CanWalk = false;
-            CanJump = false;
             GameObject.Find("Crosshair").GetComponent<Text>().text = "You are DEAD!";
         }
     }

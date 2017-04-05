@@ -40,7 +40,7 @@ public class PigController : MonoBehaviour
                 }
 
 
-                gameObject.transform.Translate(Vector3.forward * pigspeed);
+                gameObject.transform.Translate(Vector3.forward * pigspeed * Time.deltaTime*100);
                 TimetoWalk -= Time.deltaTime;
                 if (TimetoWalk <= -5)
                 {

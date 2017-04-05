@@ -21,9 +21,10 @@ public class PlayerController : MonoBehaviour
     public Camera Tps;
     public Camera Fps;
     public Slider healthSlider;
-	public Image damageImage;
+	//public Image damageImage;
 	public Color flashColour = new Color(1f, 0f, 0f, 0.1f);
-	private float timer = 1;
+	private double timer = 1.0;
+	public Image Heart;
 
 
 
@@ -133,18 +134,18 @@ public class PlayerController : MonoBehaviour
 
 		if (timer <= 0) 
 		{
-			if (timer <= -1) 
+			if (timer <= -0.5) 
 			{
-				timer = 1;
+				timer = 0.5;
 			}
 			if (PlayerHealth < 50) 
 			{
-				damageImage.color = flashColour;
+				Heart.GetComponent<Canvas>().enabled = false;
 			}
 		} 
 		else if (timer > 0) 
 		{
-			damageImage.color = Color.clear;
+			Heart.GetComponent<Canvas>().enabled = true;
 		}
 		
 

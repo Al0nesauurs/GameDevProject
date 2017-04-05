@@ -21,6 +21,9 @@ public class PlayerController : MonoBehaviour
     public Camera Tps;
     public Camera Fps;
     public Slider healthSlider;
+	public Image damageImage;
+	public Color flashColour = new Color(1f, 0f, 0f, 0.1f);
+	private float timer = 1;
 
 
 
@@ -124,6 +127,29 @@ public class PlayerController : MonoBehaviour
         {
             Application.Quit();
         }
+
+		timer -= Time.deltaTime;
+
+
+		if (timer <= 0) 
+		{
+			if (timer <= -1) 
+			{
+				timer = 1;
+			}
+			if (PlayerHealth < 50) 
+			{
+				damageImage.color = flashColour;
+			}
+		} 
+		else if (timer > 0) 
+		{
+			damageImage.color = Color.clear;
+		}
+		
+
+
+
     }
 
     public void TakeDamage(int damage)

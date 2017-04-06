@@ -1,15 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnUnitStep : MonoBehaviour {
 
-    int [] maxpig = {10,7,6,5,2,0,0};
-    int [] maxtiger = { 0, 2, 3, 5, 7,0,0 };
+    int [] maxpig =   { 10,7, 6, 5, 2, 0, 0};
+    int [] maxtiger = { 0, 2, 3, 5, 7, 0, 0 };
+    int[] maxboss =   { 0, 0, 0, 0, 0, 1, 0 };
     int stage = 0;
     public GameObject myNew;
     public GameObject MachineGun;
+    public GameObject Boss;
+    public Transform BossSpawnlocation;
     bool spawnMachine = true;
+    bool spawnBoss = true;
+    bool ending = false;
     void start()
     {
 
@@ -17,7 +23,14 @@ public class SpawnUnitStep : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameObject.FindGameObjectsWithTag("PigTag").Length==0&& GameObject.FindGameObjectsWithTag("LionTag").Length == 0)
+        if (stage == 2 && spawnMachine)
+        {
+            myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
+            spawnMachine = false;
+        }
+        if (GameObject.FindGameObjectsWithTag("PigTag").Length==0 && 
+            GameObject.FindGameObjectsWithTag("LionTag").Length == 0 &&
+            GameObject.FindGameObjectsWithTag("BossTag").Length == 0&&!ending)
         {
             Debug.Log("stage= " + stage);
             PigSpawn.number = maxpig[stage];
@@ -26,10 +39,19 @@ public class SpawnUnitStep : MonoBehaviour {
             LionSpawn.start = true;
             stage++;
         }
-        if (stage == 2&&spawnMachine)
+     
+
+        if(stage==6&&spawnBoss)
         {
-            myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
-            spawnMachine = false;
+            Instantiate(Boss, BossSpawnlocation.position, BossSpawnlocation.rotation);
+            spawnBoss = false;
+        }
+
+        if(stage==7)
+        {
+            ending = true;
+            Time.timeScale = 0;
+            GameObject.Find("Crosshair").GetComponent<Text>().text = "Thank for playing !!!!";
         }
     }
 }

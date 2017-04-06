@@ -5,7 +5,7 @@ using UnityEngine;
 public class PigSpawn : MonoBehaviour {
     public GameObject PigModel;
     public float AllTime = 0;
-    public static int number = 10;
+    public static int number = 0;
     public static bool start = true;
 
 	void Update () {

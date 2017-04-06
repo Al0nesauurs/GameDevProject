@@ -12,6 +12,7 @@ public class EnemyAttack : MonoBehaviour
     GameObject playerarm;
     PlayerController playerctl;               // Reference to the player's health.
     LionController lionctl;
+    BossController bossctrl;
     bool playerInRange;                         // Whether player is within the trigger collider and can be attacked.
     float timer;                                // Timer for counting up to the next attack.
 
@@ -22,6 +23,7 @@ public class EnemyAttack : MonoBehaviour
         playerarm = GameObject.Find("PlayerArm");
         playerctl = player.GetComponent<PlayerController>();
         lionctl = GetComponent<LionController>();
+        bossctrl = GetComponent<BossController>();
         //anim = GetComponent<Animator>();
     }
 
@@ -68,7 +70,7 @@ public class EnemyAttack : MonoBehaviour
         timer = 0f;
 
         // If the player has health to lose...
-        if (playerctl.PlayerHealth > 0)
+        if (PlayerController.PlayerHealth > 0)
         {
             // ... damage the player.
             playerctl.TakeDamage(attackDamage);

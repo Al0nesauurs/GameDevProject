@@ -18,6 +18,7 @@ public class LionController : MonoBehaviour
     public GameObject meat;
     public float lionspeed = 0.03f;
     int fieldOfViewRange = 45;
+    public static bool bosscommand = false;
 
 
     // Use this for initialization
@@ -32,7 +33,7 @@ public class LionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (running)
+        if (running||bosscommand)
         {
             run();
         }

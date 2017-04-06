@@ -6,6 +6,7 @@ public class Bulletmove : MonoBehaviour {
     private float t;
     private PigController Pigscript;
     private LionController Lionscript;
+    private BossController Bossscript;
     private WeaponNameController WeaponNameControl;
     public static int power = 10;
     public int speed = 1;
@@ -37,6 +38,11 @@ public class Bulletmove : MonoBehaviour {
         {
             Lionscript = (LionController)other.GetComponent(typeof(LionController));
             Lionscript.HpController(power);
+        }
+        if (other.tag == "BossTag")
+        {
+            Bossscript = (BossController)other.GetComponent(typeof(BossController));
+            Bossscript.HpController(power);
         }
         if (other.tag!="ItemTag")
          Destroy(gameObject);

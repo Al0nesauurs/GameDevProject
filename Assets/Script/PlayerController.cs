@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public float force = 5;
     public float MouseSpeed = 3;
     float mouseInputX, mouseInputY;
-    public int PlayerHealth = 100;
+    public static int PlayerHealth = 100;
     public WeaponController WeaponControl;
     public WeaponNameController WeaponNameControl;
     public Camera Tps;

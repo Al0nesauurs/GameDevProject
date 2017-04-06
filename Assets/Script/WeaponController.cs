@@ -33,7 +33,7 @@ public class WeaponController : MonoBehaviour {
         if (startReload)
         {
             timeReload += Time.deltaTime;
-            if (timeReload < 3)
+            if (timeReload < 3&&PlayerController.PlayerHealth>0)
                 GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOADING IN "+(int)(4-timeReload)+"";
             else
             {

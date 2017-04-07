@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 	public Color flashColour = new Color(1f, 0f, 0f, 0.1f);
 	private double timer = 1.0;
 	public Image Heart;
+	public AudioSource pause;
+	public AudioSource normalsound;
 
 
 
@@ -85,6 +87,8 @@ public class PlayerController : MonoBehaviour
                 Cursor.visible = true;
                 Time.timeScale = 0;
                 GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = true;
+				pause.enabled = true;
+				normalsound.enabled = false;
             }
             else
             {
@@ -94,6 +98,8 @@ public class PlayerController : MonoBehaviour
                     Cursor.visible=false;
                 Time.timeScale = 1;
                 GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = false;
+				pause.enabled = false;
+				normalsound.enabled = true;
             }
 
         }

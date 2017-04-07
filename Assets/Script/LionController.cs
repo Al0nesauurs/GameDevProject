@@ -8,7 +8,7 @@ public class LionController : MonoBehaviour
     UnityEngine.AI.NavMeshAgent nav;
     GameObject player;
     Transform playertran;
-    float trun = 0;
+    //float trun = 0;
     public int hp = 50;
     public static float damageApply = 0;
     bool running = false;
@@ -19,11 +19,15 @@ public class LionController : MonoBehaviour
     public float lionspeed = 0.03f;
     int fieldOfViewRange = 45;
     public static bool bosscommand = false;
+	public AudioClip hitlion;
+	public AudioClip liondeath;
+	AudioSource audio;
 
 
     // Use this for initialization
     void Start()
     {
+		audio = GetComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player");
         playertran = player.transform;
 
@@ -35,7 +39,7 @@ public class LionController : MonoBehaviour
     {
         if (running||bosscommand)
         {
-            run();
+				run ();
         }
         else
         {
@@ -78,12 +82,18 @@ public class LionController : MonoBehaviour
         gameObject.transform.Translate(Vector3.up * Time.deltaTime * 10f);
         hp -= damage;
 
+		if (hp >= 1) 
+		{
+			audio.PlayOneShot(hitlion, 0.7F);
+		}
+
         if (hp <= 0)
         {
+			AudioSource.PlayClipAtPoint(liondeath, transform.position);
             DropItem();
             DropItem();
             DropItem();
-            Destroy(gameObject);
+			Destroy(gameObject);
         }
     }
 
@@ -92,6 +102,7 @@ public class LionController : MonoBehaviour
         var targetPosition = playertran.position;
         nav.SetDestination(targetPosition);
     }
+		
 
     void DropItem()
     {

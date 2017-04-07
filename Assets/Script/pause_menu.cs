@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class pause_menu : MonoBehaviour
 {
+	public AudioSource pause;
+	public AudioSource normalsound;
 
     public void Resume()
     {
         Time.timeScale = 1;
         GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = false;
+		pause.enabled = false;
+		normalsound.enabled = true;
         if(!PlayerController.CursorResume)
             Cursor.visible = false;
     }
@@ -29,6 +33,16 @@ public class pause_menu : MonoBehaviour
     {
         GameObject.Find("KeyboardControl").GetComponent<Canvas>().enabled = false;
     }
+
+	public void Audio()
+	{
+		GameObject.Find("option").GetComponent<Canvas>().enabled = true;
+	}
+
+	public void BackAudio()
+	{
+		GameObject.Find("option").GetComponent<Canvas>().enabled = false;
+	}
 
 
 

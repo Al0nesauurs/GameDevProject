@@ -110,6 +110,9 @@ public class WeaponController : MonoBehaviour {
                 GameObject.Find("Crosshair").GetComponent<Text>().text = "RELOAD NOW!!";
             }
         }
+
     }
-    
+
+
 }
+

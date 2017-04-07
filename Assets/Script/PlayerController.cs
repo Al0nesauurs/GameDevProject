@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
             Tps.enabled = false;
             Fps.enabled = true;
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             if (WeaponNameController.weaponname != "hand")
             {
@@ -125,7 +125,7 @@ public class PlayerController : MonoBehaviour
             WeaponController.startReload = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }

@@ -23,11 +23,7 @@ public class SpawnUnitStep : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (stage == 2 && spawnMachine)
-        {
-            myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
-            spawnMachine = false;
-        }
+
         if (GameObject.FindGameObjectsWithTag("PigTag").Length==0 && 
             GameObject.FindGameObjectsWithTag("LionTag").Length == 0 &&
             GameObject.FindGameObjectsWithTag("BossTag").Length == 0&&!ending)
@@ -39,9 +35,13 @@ public class SpawnUnitStep : MonoBehaviour {
             LionSpawn.start = true;
             stage++;
         }
-     
 
-        if(stage==6&&spawnBoss)
+        if (stage == 3 && spawnMachine)
+        {
+            myNew = Instantiate(MachineGun, gameObject.transform.position, gameObject.transform.rotation);
+            spawnMachine = false;
+        }
+        if (stage==6&&spawnBoss)
         {
             Instantiate(Boss, BossSpawnlocation.position, BossSpawnlocation.rotation);
             spawnBoss = false;

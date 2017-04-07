@@ -11,6 +11,10 @@ public class WeaponNameController : MonoBehaviour
     bool parented=false;
     GameObject myNew;
 
+    void Start ()
+    {
+        weaponname = "hand";
+    }
 	void Update()
 	{
         if (fix&&weaponname!="hand")

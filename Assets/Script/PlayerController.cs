@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
             {
                 CursorResume = false;
             }
-            if (Time.timeScale == 1)
+            if (Time.timeScale == 1||PlayerHealth<=0)
             {
                 Cursor.visible = true;
                 Time.timeScale = 0;
@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
 				pause.enabled = true;
 				normalsound.enabled = false;
             }
-            else
+            else if(PlayerHealth>0)
             {
                 if (CursorResume)
                     Cursor.visible = true; 

@@ -10,12 +10,15 @@ public class pause_menu : MonoBehaviour
 
     public void Resume()
     {
-        Time.timeScale = 1;
-        GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = false;
-		pause.enabled = false;
-		normalsound.enabled = true;
-        if(!PlayerController.CursorResume)
-            Cursor.visible = false;
+        if (PlayerController.PlayerHealth > 0)
+        { 
+            Time.timeScale = 1;
+            GameObject.Find("PauseMenu").GetComponent<Canvas>().enabled = false;
+            pause.enabled = false;
+            normalsound.enabled = true;
+            if (!PlayerController.CursorResume)
+                Cursor.visible = false;
+        }
     }
 
     public void Restart()

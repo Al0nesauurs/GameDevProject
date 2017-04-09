@@ -163,8 +163,13 @@ public class PlayerController : MonoBehaviour
 		{
 			Heart.GetComponent<Canvas>().enabled = true;
 		}
-		
 
+        if (PlayerHealth <= 0)
+        {
+            Time.timeScale = 0;
+            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
+            GameObject.Find("Crosshair").GetComponent<Text>().text = "You are DEAD!";
+        }
 
 
     }
@@ -178,12 +183,7 @@ public class PlayerController : MonoBehaviour
 		}
         healthSlider.value = PlayerHealth;
         Debug.Log("DAMAGE! " + damage + "now player health = " + PlayerHealth);
-        if (PlayerHealth <= 0)
-        {
-            Time.timeScale = 0;
-            GameObject.Find("Crosshair").GetComponent<Canvas>().enabled = true;
-            GameObject.Find("Crosshair").GetComponent<Text>().text = "You are DEAD!";
-        }
+
     }
 
     bool IsGrounded()

@@ -27,11 +27,14 @@ public class PlayerController : MonoBehaviour
 	public Image Heart;
 	public AudioSource pause;
 	public AudioSource normalsound;
+	AudioSource soundEffect;
+	public AudioClip liondeath;
 
 
 
     void Start()
     {
+		soundEffect = GetComponent<AudioSource>();
         PlayerHealth = 100;
         Tps.enabled = true;
         Fps.enabled = false;
@@ -163,6 +166,10 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(int damage)
     {
         PlayerHealth -= damage;
+		if (PlayerHealth > 0) 
+		{
+			soundEffect.PlayOneShot (liondeath, 0.7F);
+		}
         healthSlider.value = PlayerHealth;
         Debug.Log("DAMAGE! " + damage + "now player health = " + PlayerHealth);
         if (PlayerHealth <= 0)

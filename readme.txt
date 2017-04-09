@@ -10,7 +10,7 @@ How to play ;)
 
 Team member
 1. Booranasit Piyavatcharavijit 5710503444
-2. Parut Singhapun 5710503495
-3. Methus Mungkijpaisan 5710503517
-4. Anawat Kaenthong 5710503584
+2. Parut Singhapun              5710503495
+3. Methus Mungkijpaisan         5710503517
+4. Anawat Kaenthong             5710503584
 

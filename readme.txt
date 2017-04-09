@@ -1,22 +1,16 @@
-How to start :
+How to play ;)
+1. Find gun around you and walk toward it
+2. Switch to First Person mode by press 'Z' or scroll middle mouse up
+3. Point Your cursor and right click the gun. If it is near enough, you 'll take completely
+4. Press 'R' to reload your gun and left click to shoot a bullet
+5. Destroy every enemy in the map!
+6. See controller option & restart game by press 'I'
 
-git clone https://github.com/nakid001/AOTAproject
-///////////////////////////////////////////////////////
+################################################################################################
 
-if already clone:
+Team member
+1. Booranasit Piyavatcharavijit 5710503444
+2. Parut Singhapun 5710503495
+3. Methus Mungkijpaisan 5710503517
+4. Anawat Kaenthong 5710503584
 
-git pull
-
-do your work!
-
-git push origin test
-////////////////////////////////////////////////////////
-PLEASE CHECK
-if in branch master 
-
-git checkout test
-/////////////////////////////////////////////////////////
-DONT MERGE OR rm OR SOMETHING WEIRD!!!!!!!!!!!!!
-
-ANY Problem Contact me first !!!
-Facebook Na Parut

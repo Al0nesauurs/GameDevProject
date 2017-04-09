@@ -14,10 +14,14 @@ public class PigController : MonoBehaviour
     public float speedup = 0;
     public GameObject meat;
     public float pigspeed = 0.01f;
+	public AudioClip hitpig;
+	public AudioClip pigdeath;
+	AudioSource audio;
 
     // Use this for initialization
     void Start()
     {
+		audio = GetComponent<AudioSource>();
         playerarm = GameObject.Find("PlayerArm").GetComponent<Transform>();
     }
 
@@ -40,7 +44,7 @@ public class PigController : MonoBehaviour
                 }
 
 
-                gameObject.transform.Translate(Vector3.forward * pigspeed);
+                gameObject.transform.Translate(Vector3.forward * pigspeed * Time.deltaTime*100);
                 TimetoWalk -= Time.deltaTime;
                 if (TimetoWalk <= -5)
                 {
@@ -63,13 +67,19 @@ public class PigController : MonoBehaviour
         fliping = true;
         gameObject.transform.Translate(Vector3.up * Time.deltaTime * 10f);
         hp -= damage;
+		if (hp >= 1) 
+		{
+			audio.PlayOneShot(hitpig, 0.7F);
+		}
 
         if (hp <= 0)
         {
+			AudioSource.PlayClipAtPoint(pigdeath, transform.position);
             DropItem();
             DropItem();
             DropItem();
             Destroy(gameObject);
+
         }
     }
     void run(float timerun)

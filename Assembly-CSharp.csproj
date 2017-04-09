@@ -64,7 +64,10 @@
      <Compile Include="Assets\Model\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\Model\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\Scene\Menu_Button.cs" />
+     <Compile Include="Assets\Script\BossAttack.cs" />
+     <Compile Include="Assets\Script\BossController.cs" />
      <Compile Include="Assets\Script\Bulletmove.cs" />
+     <Compile Include="Assets\Script\EnemyAttack.cs" />
      <Compile Include="Assets\Script\InventorySystem\Inventory.cs" />
      <Compile Include="Assets\Script\InventorySystem\Item.cs" />
      <Compile Include="Assets\Script\InventorySystem\ItemDatabase.cs" />
@@ -78,6 +81,7 @@
      <Compile Include="Assets\Script\PlayerArmController.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\ScoreManager.cs" />
+     <Compile Include="Assets\Script\SlaveSpawn.cs" />
      <Compile Include="Assets\Script\SpawnUnitStep.cs" />
      <Compile Include="Assets\Script\StoneController.cs" />
      <Compile Include="Assets\Script\StoneSpawn.cs" />
@@ -85,7 +89,7 @@
      <Compile Include="Assets\Script\TreeSpawn.cs" />
      <Compile Include="Assets\Script\WeaponController.cs" />
      <Compile Include="Assets\Script\WeaponNameController.cs" />
-     <Compile Include="Assets\UpDownController.cs" />
+     <Compile Include="Assets\Script\pause_menu.cs" />
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Model\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Model\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />

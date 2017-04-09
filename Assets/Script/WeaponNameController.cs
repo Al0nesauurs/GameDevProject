@@ -4,21 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 public class WeaponNameController : MonoBehaviour
 {
-
     public GameObject Pistol;
     public GameObject MachineGun;
 	public static string weaponname="hand";
 	bool fix =true;
     bool parented=false;
     GameObject myNew;
-    // Use this for initialization
-    void Start()
-    {
 
+    void Start ()
+    {
+        weaponname = "hand";
     }
 	void Update()
 	{
-
         if (fix&&weaponname!="hand")
         {
             if (weaponname == "pistol" || weaponname == "pistol(Clone)")
@@ -41,6 +39,7 @@ public class WeaponNameController : MonoBehaviour
 			fix = false;
             parented = true;
 		}
+
         if(weaponname=="pistol" && Input.GetKeyDown(KeyCode.G)|| weaponname == "pistol(Clone)" && Input.GetKeyDown(KeyCode.G) ||
             weaponname == "machinegun" && Input.GetKeyDown(KeyCode.G) || weaponname == "machinegun(Clone)"&& Input.GetKeyDown(KeyCode.G))
         {
@@ -52,13 +51,7 @@ public class WeaponNameController : MonoBehaviour
                 parented = false;
                 myNew.transform.parent = null;
                 fix = true;
-
-
         }
-
         gameObject.name = weaponname;
 	}
-
-
-
 }

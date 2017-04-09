@@ -18,12 +18,9 @@ public class LionSpawn : MonoBehaviour {
     void Update()
     {
         AllTime += Time.deltaTime;
-        // Debug.Log("number = " +number);
-        //Debug.Log(GameObject.FindGameObjectsWithTag("PigTag").Length);
-
         if (GameObject.FindGameObjectsWithTag("LionTag").Length < number && start)
         {
-            Vector3 position = new Vector3(Random.Range(-7f, 8.5f), 5, Random.Range(0, 10f));
+            Vector3 position = new Vector3(Random.Range(-10f, 10f) +gameObject.transform.position.x, 5, Random.Range(-0, 10f) + gameObject.transform.position.z);
             var myNew = Instantiate(LionModel, position, Quaternion.identity);
             myNew.transform.parent = gameObject.transform;
         }
@@ -31,7 +28,5 @@ public class LionSpawn : MonoBehaviour {
         {
             LionSpawn.start = false;
         }
-
-
     }
 }

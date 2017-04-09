@@ -19,6 +19,8 @@ public class ScoreManager : MonoBehaviour
 
     void Update ()
     {
-        text.text = "Enemy left " + (GameObject.FindGameObjectsWithTag("PigTag").Length+ GameObject.FindGameObjectsWithTag("LionTag").Length);//+ GameObject.FindGameObjectsWithTag("LionTag").Length);
+        text.text = "Enemy left " + (GameObject.FindGameObjectsWithTag("PigTag").Length 
+            + GameObject.FindGameObjectsWithTag("LionTag").Length
+            + GameObject.FindGameObjectsWithTag("BossTag").Length);
     }
 }

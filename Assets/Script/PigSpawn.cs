@@ -5,14 +5,9 @@ using UnityEngine;
 public class PigSpawn : MonoBehaviour {
     public GameObject PigModel;
     public float AllTime = 0;
-    public static int number = 10;
+    public static int number = 0;
     public static bool start = true;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		AllTime += Time.deltaTime;
        // Debug.Log("number = " +number);
@@ -28,7 +23,5 @@ public class PigSpawn : MonoBehaviour {
         {
             PigSpawn.start = false;
         }
-
-
     }
 }

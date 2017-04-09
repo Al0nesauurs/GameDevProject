@@ -52,6 +52,9 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -66,6 +69,9 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -99,6 +105,8 @@
     <Compile Include="Assets\Model\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
     <Compile Include="Assets\Model\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\Scene\Menu_Button.cs" />
+    <Compile Include="Assets\Script\BossAttack.cs" />
+    <Compile Include="Assets\Script\BossController.cs" />
     <Compile Include="Assets\Script\Bulletmove.cs" />
     <Compile Include="Assets\Script\EnemyAttack.cs" />
     <Compile Include="Assets\Script\InventorySystem\Inventory.cs" />
@@ -114,6 +122,7 @@
     <Compile Include="Assets\Script\PlayerArmController.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
+    <Compile Include="Assets\Script\SlaveSpawn.cs" />
     <Compile Include="Assets\Script\SpawnUnitStep.cs" />
     <Compile Include="Assets\Script\StoneController.cs" />
     <Compile Include="Assets\Script\StoneSpawn.cs" />
@@ -121,6 +130,7 @@
     <Compile Include="Assets\Script\TreeSpawn.cs" />
     <Compile Include="Assets\Script\WeaponController.cs" />
     <Compile Include="Assets\Script\WeaponNameController.cs" />
+    <Compile Include="Assets\Script\pause_menu.cs" />
     <Compile Include="Assets\UpDownController.cs" />
   </ItemGroup>
   <ItemGroup>

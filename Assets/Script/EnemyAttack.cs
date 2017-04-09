@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 public class EnemyAttack : MonoBehaviour
 {
     public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
@@ -13,17 +12,18 @@ public class EnemyAttack : MonoBehaviour
     GameObject playerarm;
     PlayerController playerctl;               // Reference to the player's health.
     LionController lionctl;
+    BossController bossctrl;
     bool playerInRange;                         // Whether player is within the trigger collider and can be attacked.
     float timer;                                // Timer for counting up to the next attack.
 
 
-    void Awake()
+    void Start()
     {
-        // Setting up the references.
         player = GameObject.Find("Player");
         playerarm = GameObject.Find("PlayerArm");
         playerctl = player.GetComponent<PlayerController>();
         lionctl = GetComponent<LionController>();
+        bossctrl = GetComponent<BossController>();
         //anim = GetComponent<Animator>();
     }
 
@@ -31,9 +31,10 @@ public class EnemyAttack : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // If the entering collider is the player...
-        if (other.gameObject == playerarm)
+        if (other.gameObject == player)
         {
             // ... the player is in range.
+            Debug.Log("Lion hitting " + other.gameObject);
             playerInRange = true;
         }
     }
@@ -52,10 +53,7 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
-
-        //Debug.Log(playerInRange);
-
-        // Add the time since Update was last called to the timer.
+       // Add the time since Update was last called to the timer.
         timer += Time.deltaTime;
 
         // If the timer exceeds the time between attacks, the player is in range and this enemy is alive...
@@ -64,23 +62,15 @@ public class EnemyAttack : MonoBehaviour
             // ... attack.
             Attack();
         }
-
-        // If the player has zero or less health...
-        /*if (playerctl.PlayerHealth <= 0)
-        {
-            // ... tell the animator the player is dead.
-            //anim.SetTrigger("PlayerDead");
-        }*/
     }
-
-
+    
     void Attack()
     {
         // Reset the timer.
         timer = 0f;
 
         // If the player has health to lose...
-        if (playerctl.PlayerHealth > 0)
+        if (PlayerController.PlayerHealth > 0)
         {
             // ... damage the player.
             playerctl.TakeDamage(attackDamage);

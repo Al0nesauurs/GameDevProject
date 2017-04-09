@@ -13,6 +13,8 @@ public class WeaponNameController : MonoBehaviour
 
     void Start ()
     {
+        fix = true;
+        parented = false;
         weaponname = "hand";
     }
 	void Update()

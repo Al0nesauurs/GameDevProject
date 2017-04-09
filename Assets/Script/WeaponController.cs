@@ -22,6 +22,11 @@ public class WeaponController : MonoBehaviour {
     private AudioSource source;
     //end sound part
     void Start () {
+        ammo = 0;
+        t = 0;
+        hit = false;
+        timeReload = 0;
+        startReload = false;
         source = GetComponent<AudioSource>();
 	}
 

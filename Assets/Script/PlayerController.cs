@@ -34,6 +34,12 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        CanWalk = true;
+        CanJump = true;
+        usingitem = false; 
+        CursorResume = true;
+        canrightclick = true;
+        Time.timeScale = 1;
 		soundEffect = GetComponent<AudioSource>();
         PlayerHealth = 100;
         Tps.enabled = true;
@@ -63,7 +69,7 @@ public class PlayerController : MonoBehaviour
             gameObject.transform.Translate(Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime * 1f * force);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && CanJump)
+        if (Input.GetKeyDown(KeyCode.Space) && CanJump && Time.timeScale == 1)
         {
             gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0, 2000));
         }

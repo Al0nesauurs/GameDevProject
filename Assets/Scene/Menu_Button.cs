@@ -9,4 +9,8 @@ public class Menu_Button : MonoBehaviour {
     {
         SceneManager.LoadScene("MyGame");
     }
+    public void LoadTutorial()
+    {
+        SceneManager.LoadScene("How2Play");
+    }
 }

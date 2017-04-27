@@ -1,3 +1,4 @@
+# THIS IS BACKUP
 How to play ;)
 1. Find a gun around you and walk toward it.
 2. Switch to First Person mode by press 'Z' or scroll middle mouse up.

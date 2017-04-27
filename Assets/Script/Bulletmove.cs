@@ -16,7 +16,7 @@ public class Bulletmove : MonoBehaviour {
         t += Time.deltaTime;
         if (t > 5)
             Destroy(gameObject);
-		gameObject.transform.Translate(Vector3.forward * Time.deltaTime * 10f*speed);
+		gameObject.transform.Translate(Vector3.up * Time.deltaTime * 10f*speed);
        /* Ray fRay = new Ray(transform.position, Vector3.forward);
 
         if (Physics.Raycast(fRay, out hit,1.5f))

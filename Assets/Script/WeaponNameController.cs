@@ -45,6 +45,7 @@ public class WeaponNameController : MonoBehaviour
         if(weaponname=="pistol" && Input.GetKeyDown(KeyCode.G)|| weaponname == "pistol(Clone)" && Input.GetKeyDown(KeyCode.G) ||
             weaponname == "machinegun" && Input.GetKeyDown(KeyCode.G) || weaponname == "machinegun(Clone)"&& Input.GetKeyDown(KeyCode.G))
         {
+				PlayerController.Cantakeitem = false;
                 GameObject.Find("Crosshair").GetComponent<Text>().text = "+";
                 PlayerController.canrightclick = true;
                 Debug.Log("DropWeapon");

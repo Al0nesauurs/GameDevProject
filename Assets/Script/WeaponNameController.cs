@@ -50,7 +50,6 @@ public class WeaponNameController : MonoBehaviour
                 PlayerController.canrightclick = true;
                 Debug.Log("DropWeapon");
                 weaponname = "hand";
-                Cursor.visible = true;
                 parented = false;
                 myNew.transform.parent = null;
                 fix = true;

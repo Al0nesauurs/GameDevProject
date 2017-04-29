@@ -36,10 +36,11 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
         CanWalk = true;
         CanJump = true;
         usingitem = false; 
-        CursorResume = true;
+        CursorResume = false;
         canrightclick = true;
         Time.timeScale = 1;
 		soundEffect = GetComponent<AudioSource>();
